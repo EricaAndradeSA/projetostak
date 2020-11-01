@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* fonte do body */
+body{
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* configuração do menu */
+.menu a {
+    color: white;
+    text-decoration: none;    /* para que o menu fique sem o sublinhado*/
+    display: inline-block;
+    padding: 5px 100px;
+    font-weight: bold;
+    vertical-align: middle;
+     
+}   
+
+.menu ul {
+    margin:0;
+    background-color: darkred;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 5px;
+}
+#pagamentos{
+    color: blueviolet;
+}
+
+/* configuração das imagens - pag produtos */
+
+.produtos {
+    width: 70%;
+    display: inline-block;
+
+}
+.box_produtos {  
+    display: inline-block;
+    padding: 10px 40px;
+    width: 200px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 12px;    
+    
+}
+
+.categorias {
+    vertical-align: top;
+    width: 29%;
+    margin: 0%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.descricaopreco {
+    color: red;
+}
+
+
+/*/ configuração do rodapé centralizado tag footer*/
+#rodape{
+    text-align: center;
+    margin-top: 150px;
+}    
+
+#rodape p{
+    color: black;
+}
+
+/* pag. lojas / configuração de endereço*/
+
+.loja {  
+    display: inline-block;
+    width: 30%;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+ .textarea {
+    width: 400px;
+    height: 100px;
+    margin: 5px;
+} 
+
+.input { 
+    width: 400px;  
+    margin: 5px; 
+}
+
+.p {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.whats1 {
+    display: inline-block;
+    vertical-align: auto;
+    width: 80px;
+    margin-right: 0%;
+   
+}
+
+.co1 {
+    
+    margin-right: 40px;
+    display: inline-block;
+    margin-right: 50%;
+}
+
+.whats2 {
+    display: inline-block;
+    vertical-align: auto;
+    width: 80px;
+    margin-right: 0%;
+   
+}
+
+.co2 {
+    
+    margin-right: 40px;
+    display: inline-block;
+    margin-left: 0%;
+}

@@ -1,0 +1,76 @@
+
+.exponsivo {
+
+}
+
+
+
+/* fonte do body */
+body{
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* configuração do menu */
+.menu a {
+    color: white;
+    text-decoration: none;    /* para que o menu fique sem o sublinhado*/
+    display: inline-block;
+    padding: 5px 100px;
+    font-weight: bold;
+    text-align: center;
+     
+}   
+
+.menu ul {
+    margin:0;
+    background-color: darkred;
+    list-style: none;
+   
+ 
+}
+
+.menu ul li {
+    display: inline;
+    padding: 5px;
+}
+#pagamentos{
+    color: blueviolet;
+}
+
+
+
+/* configuração das imagens - pag produtos */
+.box_produtos {  
+    display: inline-block;
+    padding: 10px 40px;
+    width: 120px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 12px;
+    
+}
+
+.categorias ul {
+    display: inline-block;
+    
+}
+
+.descricaopreco {
+    color: red;
+}
+
+
+/*/ configuração do rodapé centralizado tag footer*/
+#rodape{
+    text-align: center;
+}    
+
+#rodape p{
+    color: black;
+}
