@@ -19,11 +19,16 @@ SET time_zone = "+00:00";
 
 --
 -- Banco de dados: `fseletro`
+<<<<<<< HEAD
+=======
+CREATE DATABASE 'fseletro'
+>>>>>>> a28ab4d74400850f632855bd2e595b32e375e933
 -- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `comentarios`
 --
+<<<<<<< HEAD
 
 CREATE TABLE `comentarios` (
   `id` int(30) NOT NULL,
@@ -32,6 +37,16 @@ CREATE TABLE `comentarios` (
   `data` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+=======
+
+CREATE TABLE `comentarios` (
+  `id` int(30) NOT NULL,
+  `nome` varchar(30) NOT NULL,
+  `msg` varchar(50) NOT NULL,
+  `data` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+>>>>>>> a28ab4d74400850f632855bd2e595b32e375e933
 --
 -- Extraindo dados da tabela `comentarios`
 --
@@ -83,11 +98,15 @@ INSERT INTO `pedidos` (`idpedidos`, `nome_cliente`, `endereço`, `telefone`, `no
 -- Estrutura da tabela `produtos`
 --
 
+<<<<<<< HEAD
 
 
 CREATE DATABASE fseletro;
 CREATE TABLE `produtos` (
 
+=======
+CREATE TABLE `produtos` (
+>>>>>>> a28ab4d74400850f632855bd2e595b32e375e933
   `idproduto` int(11) NOT NULL,
   `categoria` varchar(45) NOT NULL,
   `descricao` varchar(120) NOT NULL,
@@ -163,4 +182,8 @@ COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+<<<<<<< HEAD
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+=======
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+>>>>>>> a28ab4d74400850f632855bd2e595b32e375e933
